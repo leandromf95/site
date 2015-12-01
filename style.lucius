@@ -1,0 +1,117 @@
+br { 
+    clear:left 
+}
+
+.fundo {
+    background-image: url(../images/background.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#login {
+    width: 426px;
+    height: 197px;
+    position:absolute;
+    float:none;
+    left: 50%;  
+    top:50%; 
+    margin-top:-120px;
+    margin-left: -250px;    
+
+}
+
+#formlogin {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-left: 140px;
+    margin-top: 42px;
+    position: absolute;
+    font-weight:bold;
+    color:#FFF;
+    
+}
+
+.campologin {
+    background-image:url(../images/campo.png);
+    width: 127px;
+    height: 26px;
+    border:none;
+    background-color:transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    
+.buttonlogin {
+    background-image:url(../images/button.png);
+    width: 70px;
+    height: 24px;
+    background-color:transparent;
+    border: none;
+    color:#FFF;
+    font-weight:bold;
+    text-align:center;
+    margin-left: 116px;
+}
+
+#resultado {
+    text-align:center;
+    width:200px;
+    color: #900;
+}
+
+.container {
+    background-color: #000000;
+    position: fixed; 
+    width: 100%; 
+    height: 40px; 
+    padding-top: 0px; top: 0; left: 0;
+}
+
+.container ul {
+    margin: 0; padding: 0;
+    float: left;
+}
+
+.container ul li {
+    display: inline;
+}
+
+.container ul li a {
+    float: left; text-decoration: none;
+    color: white; 
+    padding: 10.5px 11px;
+    background-color:  #000000;
+}
+ 
+.container ul li a:visited {
+    color: white;
+}
+ 
+.container ul li a:hover, .container ul li .current {
+    color: white;
+    background-color: #666666;
+}
+
+.tablegeral{
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+ 
+}
+
+.formgeral{
+    width: 500px;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow:auto;
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+ }

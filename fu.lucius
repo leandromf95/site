@@ -1,0 +1,4 @@
+body {
+    background-image: <img src=@{StaticR background_jpg}>
+    font-family:Arial, Helvetica, sans-serif;
+}
